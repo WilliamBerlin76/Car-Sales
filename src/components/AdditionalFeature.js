@@ -3,7 +3,7 @@ import {connect} from 'react-redux'
 import {plusFeat} from '../actions/carActions'
 const AdditionalFeature = props => {
   console.log(props.feature)
-  const plusFeature = () => {
+  const plusFeature = (e) => {
     props.plusFeat(props.feature)
   }
   

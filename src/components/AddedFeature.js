@@ -11,6 +11,7 @@ const AddedFeature = props => {
           <button className="button">{item.name}</button>
         )
       })}
+      
     </li>
   );
 };
