@@ -4,8 +4,8 @@ import {removeFeat} from '../actions/carActions';
 
 const AddedFeature = props => {
   const removeFeature = e => {
-    console.log(props.feature[0].id)
-    return props.removeFeat(props.feature[0].id)
+    console.log(props.feature[0])
+    return props.removeFeat(props.feature[0])
   }
   return (
     <li>
